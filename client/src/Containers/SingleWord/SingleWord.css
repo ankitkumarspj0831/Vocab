@@ -1,0 +1,19 @@
+.single-word {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  color: #3b0062;
+}
+
+.single-word p {
+  font-size: 1rem;
+  color: #464646;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #464646;
+}
+
+@media (min-width: 768px) {
+  .single-word {
+    width: 40rem;
+  }
+}
