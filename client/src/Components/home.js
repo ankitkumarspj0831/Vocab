@@ -11,7 +11,7 @@ class home extends Component {
     searching: false,
   };
   callBackend() {
-    fetch("http://localhost:8080")
+    fetch("https://ankit-vocab.herokuapp.com")
       .then((result) => {
         return result.json();
       })

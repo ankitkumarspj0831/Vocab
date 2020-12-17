@@ -42,7 +42,7 @@ if (process.env.NODE_ENV === "production") {
 // Connection to database using mongoose
 mongoose
   .connect(
-    "mongodb+srv://ankitbuppy:buppybuppy@cluster0.cugpg.mongodb.net/vocab?retryWrites=true"
+    process.env.MONGO_URL
   )
   .then((result) => {
     console.log("Database connected successfully.");

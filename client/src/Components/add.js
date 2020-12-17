@@ -12,7 +12,7 @@ class Add extends Component {
   handleSubmit = (event) => {
     event.preventDefault();
     alert("A word was added.");
-    fetch("http://localhost:8080/add", {
+    fetch("https://ankit-vocab.herokuapp.com/add", {
       method: "POST",
       headers: {
         "Content-type": "application/json",
