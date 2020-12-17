@@ -1,6 +1,6 @@
 const axios = require("axios");
-const app_id = "e984354c"; // insert your APP Id
-const app_key = "a454e1be360fecdadbb86cff091f1da9"; // insert your APP Key
+const app_id = ""; // insert your APP Id
+const app_key = ""; // insert your APP Key
 const Word = require("../models/word");
 
 // Connection instance for oxford dictionary
